@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/ico/message.ico">
+
+    <title>Registra il tuo account EasyChat</title>
+
+    <!-- CSS -->
+    <link href="css/signin.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/registration.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="text-center">
+<form role="form" action="" method="post" class="form-signin form-control registration-form">
+
+    <fieldset>
+        <div class="form-top">
+            <div class="form-top-left">
+                <h3>Registrazione 1/2</h3>
+                <p>Dati Personali:</p>
+            </div>
+            <div class="form-top-right">
+                <i class="fa fa-user"></i>
+            </div>
+        </div>
+        <div class="form-bottom">
+            <div class="form-group">
+                <label class="sr-only" for="form-name">Nome</label>
+                <input type="text" name="form-name" placeholder="Nome" class="form-control" id="form-name">
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="form-surname">Cognome</label>
+                <input type="text" name="form-surname" placeholder="Cognome" class="form-control" id="form-surname">
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="form-date">Data di nascita</label>
+                <input type="date" name="form-date" placeholder="Data di nascita" class="form-control" id="form-date">
+            </div>
+            <div class="form-group">
+                <label class="sr-only" for="form-sex">Sesso</label>
+                <select name="form-sex" class="custom-select" id="form-sex">
+                    <option value="m">Maschio</option>
+                    <option value="f">Femmina</option>
+                </select>
+            </div>
+            <button type="button" class="button btn-next btn-right">Avanti</button>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <div class="form-top">
+            <div class="form-top-left">
+                <h3>Registrazione 2 / 2</h3>
+                <p>Account:</p>
+            </div>
+            <div class="form-top-right">
+                <i class="fa fa-key"></i>
+            </div>
+        </div>
+        <div class="form-bottom">
+            <div class="form-group">
+                <div class="alert alert-danger" id="checkMail" role="alert"  style="display: none;">
+                    L'email risulta già registrata!
+                </div>
+                <div class="alert alert-danger" id="checkPass" role="alert"  style="display: none;">
+                    Password non corrispondenti!
+                </div>
+                <label class="sr-only" for="form-email">Email</label>
+                <input type="text" name="form-email" placeholder="Email" class="form-email form-control" id="form-email">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="pass" id="pass" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="confpass" id="confpass" placeholder="Conferma Password" required>
+            </div>
+            <button type="button" class="button btn-previous btn-left">Indietro</button>
+            <button type="submit" class="button btn-next btn-right btnRegister">Registrami!</button>
+        </div>
+
+    </fieldset>
+</form>
+
+<!-- Javascript -->
+<script src="js/jquery-3.3.1.js"></script>
+<script src="assets/bootstrap-notify.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/retina-1.1.0.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/Register.js"></script>
+<script src="js/passValidator.js"></script>
+<script src="js/checkMail.js"></script>
+<!--[if lt IE 10]>
+<script src="js/placeholder.js"></script>
+<![endif]-->
+
+</body>
+</html>

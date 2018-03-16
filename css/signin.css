@@ -1,0 +1,90 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+
+  /* Location of the image */
+  background-image: url(../img/2.jpg);
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+}
+
+.form-signin {
+
+  -webkit-box-shadow:0 0 4em rgb(4,6,5);
+  -moz-box-shadow:0 0 3em rgb(6,7,8);
+  box-shadow:0 0 1em rgb(5,9,2);
+  width: 100%;
+  max-width: 400px;
+  padding: 30px 15px 30px 15px;
+  margin: 0 auto;
+  border-radius: 0.25rem !important;
+  background-color: #FFF;
+
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  display: block;
+  margin : 0 auto;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.par{
+  margin-top: 20px;
+}
+
+.form-contain{
+  width: 80%;
+  display: block;
+  margin : 0 auto;
+}
+
+.registration{
+  display: none;
+}
